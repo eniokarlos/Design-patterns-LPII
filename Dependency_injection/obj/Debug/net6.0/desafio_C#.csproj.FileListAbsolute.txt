@@ -1,0 +1,15 @@
+C:\Users\enio\Desktop\workspace\desafio_C#\bin\Debug\net6.0\desafio_C#.exe
+C:\Users\enio\Desktop\workspace\desafio_C#\bin\Debug\net6.0\desafio_C#.deps.json
+C:\Users\enio\Desktop\workspace\desafio_C#\bin\Debug\net6.0\desafio_C#.runtimeconfig.json
+C:\Users\enio\Desktop\workspace\desafio_C#\bin\Debug\net6.0\desafio_C#.dll
+C:\Users\enio\Desktop\workspace\desafio_C#\bin\Debug\net6.0\desafio_C#.pdb
+C:\Users\enio\Desktop\workspace\desafio_C#\obj\Debug\net6.0\desafio_C#.csproj.AssemblyReference.cache
+C:\Users\enio\Desktop\workspace\desafio_C#\obj\Debug\net6.0\desafio_C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\enio\Desktop\workspace\desafio_C#\obj\Debug\net6.0\desafio_C#.AssemblyInfoInputs.cache
+C:\Users\enio\Desktop\workspace\desafio_C#\obj\Debug\net6.0\desafio_C#.AssemblyInfo.cs
+C:\Users\enio\Desktop\workspace\desafio_C#\obj\Debug\net6.0\desafio_C#.csproj.CoreCompileInputs.cache
+C:\Users\enio\Desktop\workspace\desafio_C#\obj\Debug\net6.0\desafio_C#.dll
+C:\Users\enio\Desktop\workspace\desafio_C#\obj\Debug\net6.0\refint\desafio_C#.dll
+C:\Users\enio\Desktop\workspace\desafio_C#\obj\Debug\net6.0\desafio_C#.pdb
+C:\Users\enio\Desktop\workspace\desafio_C#\obj\Debug\net6.0\desafio_C#.genruntimeconfig.cache
+C:\Users\enio\Desktop\workspace\desafio_C#\obj\Debug\net6.0\ref\desafio_C#.dll

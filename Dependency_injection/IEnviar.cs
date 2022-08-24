@@ -1,0 +1,4 @@
+interface IEnviar
+{
+    void enviar();
+}
