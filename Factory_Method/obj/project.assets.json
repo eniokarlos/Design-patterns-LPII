@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\enio\\Desktop\\cs\\cs.csproj",
+      "projectUniqueName": "C:\\Users\\enio\\Desktop\\workspace\\desafio_C#\\Factory_Method\\cs.csproj",
       "projectName": "cs",
-      "projectPath": "C:\\Users\\enio\\Desktop\\cs\\cs.csproj",
+      "projectPath": "C:\\Users\\enio\\Desktop\\workspace\\desafio_C#\\Factory_Method\\cs.csproj",
       "packagesPath": "C:\\Users\\enio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\enio\\Desktop\\cs\\obj\\",
+      "outputPath": "C:\\Users\\enio\\Desktop\\workspace\\desafio_C#\\Factory_Method\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\enio\\AppData\\Roaming\\NuGet\\NuGet.Config",

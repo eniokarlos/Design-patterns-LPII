@@ -1,4 +1,4 @@
 public interface IType
 {
-    public string execute();
+    public void execute();
 }

@@ -1,11 +1,17 @@
 public class TextType: IType
 {
-    private string text {get;set;}
+    private string text;
 
     public TextType(string text){
         this.text = text;
     }
-    public string execute(){
-        return "Resposta: "+ this.text;
+    public void execute(){
+        Console.WriteLine(text);
+    }
+
+    public string Text
+    {
+        get{return this.text;}
+        set{this.text = value;}
     }
 }

@@ -1,14 +1,27 @@
 public class ChoiceType: IType
 {
-    private string[] choices{get;set;} = new string[3];
+    private HashSet<string> choices = new HashSet<string>();
 
-    public ChoiceType(string arg1, string arg2, string arg3){
-        this.choices[0] = arg1;
-        this.choices[1] = arg2;
-        this.choices[2] = arg3;
+    public ChoiceType(HashSet<string> choices){
+        this.choices = choices;
+        validade();
     }
 
-    public string execute(){
-        return String.Format("Alternativas:\nA: {0}\nB: {1}\nC: {2}", this.choices[0], this.choices[1], this.choices[2]);
+    public HashSet<string> Choices{
+        get{return this.choices;}
+        set{this.choices = value; validade();}
+    }
+
+    public void validade(){
+        if(choices.Count != 3){
+            throw new ArgumentException("O número de alternativas deve ser igual a tres");
+        }
+    }
+
+    public void execute(){
+        foreach(var val in choices)
+        {
+            Console.WriteLine(val);
+        }
     }
 }

@@ -1,20 +1,36 @@
 public class Question
 {
-    private string id {get; set;}
-    private string text {get; set;}
-    private IType type {get;set;}
+    private string text;
+    private IType type;
+    private Levels level;
 
-    private Question(string id, string text, IType type){
-        this.id = id;
+    public Question(string text,IType type, Levels level){
         this.text = text;
+        this.level = level;
         this.type = type;
     }
 
-    public static Question of(string id, string text, IType type){
-        return new Question(id,text,type);
+    public void update(string text,IType type, Levels level){
+        this.text = text;
+        this.level = level;
+        this.type = type;
     }
 
-    public string toString(){
-        return String.Format("id: {0}\ntext: {1}\n{2}",this.id,this.text,type.execute());
+    public enum Levels{
+        EASY = 25,
+        MEDIUM = 50,
+        HARD = 75,
+        EXPERT = 100
+    }
+
+    public string Text{
+        get{return this.text;}
+    }
+    public Levels Level{
+        get{return this.Level;}
+    }
+
+    public IType Type{
+        get{return this.type;}
     }
 }

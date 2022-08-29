@@ -3,16 +3,24 @@ class Program
 {
     static void Main(string[] args)
     {
-        Question q1 = Question.of("1",
-        "Quem descobriu o Brasil? Pedro álvares Ca:", 
-        AnswerFactory.ofChoice("bral","brel","bril")
+        var questao1 = AnswerFactory.create(
+            "How to create a new c sharp project?",
+            new HashSet<string>(){
+                "Visual studio",
+                "Jetbrains Rider",
+                "VS Code"
+            },
+            Question.Levels.EASY
         );
-        Console.WriteLine(q1.toString());
+        
+        questao1.Type.execute();
 
-        Question q2 = Question.of("2",
-        "Quem descobriu a América?",
-        AnswerFactory.ofText("Cristovão Colombo")
+        var questao2 = AnswerFactory.create(
+            "How to create a new c sharp project?",
+            "VS code is better",
+            Question.Levels.MEDIUM
         );
-        Console.WriteLine(q2.toString());
+
+        questao2.Type.execute();
     }
 }
